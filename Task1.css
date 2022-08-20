@@ -5,7 +5,7 @@
 }
 
 header{
-  height: 50px;
+  height: 30px;
   background-color: #ff9a4b;
   box-sizing: border-box;
   margin:0;
@@ -14,16 +14,15 @@ header{
   }
 
 main{
-  width: 960px;
+  width: 100%;
   margin: 50px auto;
   display: flex;
 }
 
-.step-box{
-  width: 300px;
+.step-box1{
+  width: 90%;
   margin-right:30px;
-  padding:10px;
-  
+  margin-bottom: 20px;
   
   position: relative;
   background-color: #eeeeee;
@@ -41,12 +40,32 @@ main{
   background-color: #ff9a4b;
   color: #fff;
 }
+
+.step-box2{
+  width: 90%;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  
+  position: relative;
+  background-color: #eeeeee;
+}
+
 .step-img2{
   height: 150px;
   background-image: url(img/flow02.png);
   background-position: center bottom;
   background-size: cover;
 }
+
+.step-box3{
+  width: 90%;
+  margin-right:30px;
+  margin-bottom: 20px;
+  
+  position:relative;
+  background-color: #eeeeee;
+}
+
 .step-img3{
   height: 150px;
   background-image: url(img/flow03.png);
